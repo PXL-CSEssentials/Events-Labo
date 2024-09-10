@@ -14,22 +14,22 @@
         </Grid.ColumnDefinitions>
         <StackPanel>
             <Label Content="Deel 1" Margin="10" FontSize="28" FontWeight="Bold" />
-            <Button Name="showMessageButton" Content="Show message" Margin="10" Click="showMessageButton_Click"/>
+            <Button Name="showMessageButton" Content="Show message" Margin="10" />
             <Button Name="showAgainButton" Content="Show message again" Margin="10"/>
         </StackPanel>
         <StackPanel Grid.Column="1">
             <Label Content="Deel 2" Margin="10" FontSize="28" FontWeight="Bold" />
-            <TextBox x:Name="nameTextBox" Margin="10" FontSize="14" KeyDown="nameTextBox_KeyDown"  />
+            <TextBox x:Name="nameTextBox" Margin="10" FontSize="14" />
             <Label Name="nameOutputLabel" Margin="10" Height="28" Background="WhiteSmoke"/>
             <Label Content="Deel 3" Margin="10" FontSize="28" FontWeight="Bold" />
-            <TextBox x:Name="originalTextBox" Margin="10" FontSize="14" KeyDown="original_KeyDown"/>
+            <TextBox x:Name="originalTextBox" Margin="10" FontSize="14" />
             <Label Name="convertedLabel" Margin="10" Height="28" Background="WhiteSmoke"/>
         </StackPanel>
         <StackPanel Grid.Column="2">
             <Label Content="Deel 4" Margin="10" FontSize="28" FontWeight="Bold" />
-            <Button Name="firstButton" Content="0" Margin="10" Height="50" Click="counterButton_Click"/>
-            <Button Name="secondButton" Content="0" Margin="10" Height="50" Click="counterButton_Click"/>
-            <Button Name="thirdButton" Content="0" Margin="10" Height="50" Click="counterButton_Click"/>
+            <Button Name="firstButton" Content="0" Margin="10" Height="50" />
+            <Button Name="secondButton" Content="0" Margin="10" Height="50" />
+            <Button Name="thirdButton" Content="0" Margin="10" Height="50" />
         </StackPanel>
     </Grid>
 </Window>
