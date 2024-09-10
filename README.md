@@ -38,3 +38,12 @@
 - Verhoog het nummer wat wordt weergegeven als tekst van de knop met 1
 
 ![Afbeelding](media/counterbuttons.png)
+
+## Extra
+- Gebruik het SizeChanged event van het venster om de achtergrondkleur te wijzigen
+	- Maak de achtergrondkleur groen indien de breedte van het venster groter is dan de hoogte
+	- Maak de achtergrondkleur rood indien de hoogte van het venster groter is dan de breedte
+
+- Gebruik het MouseEnter en het MouseLeave event van de titel-*Labels*
+	- Onderlijn de tekst van het label wanneer de muis over het label beweegt
+	- Verwijder de onderlijning wanneer de muis het label verlaat

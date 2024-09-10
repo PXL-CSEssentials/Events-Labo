@@ -69,5 +69,4 @@ public partial class MainWindow : Window
         return new SolidColorBrush(Color.FromRgb((byte)random.Next(0, 255), (byte)random.Next(0, 255), (byte)random.Next(0, 255)));
     }
 
-
 }
